@@ -1,0 +1,6 @@
+"0","gender = as.factor(df[, ""gender""])"
+"0",""
+"0","km_gender_fit = survfit(Surv(fu_time, death) ~ gender)"
+"0",""
+"0","plot(km_gender_fit);"
+"0",""
