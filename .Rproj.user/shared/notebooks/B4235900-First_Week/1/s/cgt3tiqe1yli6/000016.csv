@@ -1,7 +1,0 @@
-"0","fu_time <- df[,""fu_time""] # continuous variable (numeric) "
-"0","death <- df[,""death""] # binary variable (numeric) "
-"0",""
-"0","km_fit = survfit(Surv(fu_time, death) ~ 1)"
-"0",""
-"0","plot(km_fit)"
-"0",""

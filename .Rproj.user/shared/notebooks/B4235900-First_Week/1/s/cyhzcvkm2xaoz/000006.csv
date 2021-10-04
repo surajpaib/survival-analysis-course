@@ -1,5 +1,0 @@
-"0","older_age_group = ifelse(df[,""age""]>=65, 1, 0)"
-"0",""
-"0","km_age_fit = survfit(Surv(fu_time, death) ~ older_age_group)"
-"0",""
-"0","plot(km_age_fit)"
